@@ -1,11 +1,11 @@
 /* ===== RESET E VARIÁVEIS ===== */
 :root {
-    /* Cores principais */
-    --primary-gold: #d4af37;
-    --primary-gold-light: #f1c40f;
-    --primary-gold-dark: #b8941f;
-    --secondary-dark: #2c3e50;
-    --secondary-light: #34495e;
+      /* Cores principais */
+    --primary-gold: #580F21; /* Vinho/Bordô Principal */
+    --primary-gold-light: #7F1A35;
+    --primary-gold-dark: #330712;
+    --secondary-dark: #4A4A4A; /* Cinza Escuro do Texto */
+    --secondary-light: #6C6C6C; /* Cinza Médio */
     
     /* Cores neutras */
     --white: #ffffff;
@@ -211,6 +211,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px; /* Adiciona espaçamento entre a logo e o nav-logo */
 }
 
 .nav-logo h1 {
@@ -2560,4 +2561,37 @@ section {
     * {
         box-shadow: none !important;
     }
+
+/* =================================================================== */
+/* Ajuste de Alinhamento e Tamanho da Logo (Solução Final) */
+/* =================================================================== */
+
+/* 1. Aplica Flexbox para alinhamento horizontal */
+/* Garante que o contêiner da logo na navegação e no preloader use Flexbox */
+.nav-logo, .logo-preloader {
+    display: flex !important; /* Força o Flexbox */
+    align-items: center !important; /* Alinha verticalmente no centro */
+    gap: 10px; /* Espaço entre a logo e o texto */
+    flex-direction: row !important; /* Garante que fiquem lado a lado */
+}
+
+/* 2. Reduz o tamanho da imagem da logo */
+.logo-img {
+    /* Tamanho reduzido e adequado para a barra de navegação/preloader */
+    height: 10px !important; /* Tamanho visível */
+    width: 10px !important; /* Tamanho visível */
+    object-fit: cover; 
+    border-radius: 50%; /* Se você quiser o formato circular */
+    margin: 0 !important; /* Remove margens indesejadas */
+}
+
+/* 3. Ajusta o texto do título */
+.nav-logo h1, .logo-preloader h1 {
+    /* Remove margens e garante que o texto não quebre a linha */
+    margin: 0 !important; 
+    line-height: 1 !important; 
+}
+
+
+
 }

@@ -9,8 +9,8 @@ const CONFIG = {
   sliderInterval: 5000,
 
   // Contatos
-  whatsappNumber: "5511999999999",
-  email: "contato@marmoraria-elegance.com.br",
+  whatsappNumber: "5579999607489",
+  email: "contato@marmoraria.com.br",
 
   // Calculadora
   calculator: {
@@ -986,7 +986,7 @@ Gostaria de agendar uma visita técnica para orçamento detalhado.`;
     // Criar conteúdo para o PDF
     const content = `
             <div style="font-family: Arial, sans-serif; padding: 20px;">
-                <h1 style="color: #d4af37; text-align: center;">Marmoraria Elegance</h1>
+                <h1 style="color: #d4af37; text-align: center;">Marmoraria Mota</h1>
                 <h2 style="text-align: center;">Orçamento</h2>
                 <hr>
                 <div style="margin: 20px 0;">
@@ -1018,7 +1018,7 @@ Gostaria de agendar uma visita técnica para orçamento detalhado.`;
             <!DOCTYPE html>
             <html>
             <head>
-                <title>Orçamento - Marmoraria Elegance</title>
+                <title>Orçamento - Marmoraria Mota</title>
                 <style>
                     body { font-family: Arial, sans-serif; margin: 20px; }
                     .header { text-align: center; color: #d4af37; }
@@ -1467,7 +1467,7 @@ class ContactForm {
 ${mensagem || "Nenhuma mensagem adicional"}
 
 ---
-_Enviado pelo site da Marmoraria Elegance_`;
+_Enviado pelo site da Marmoraria Mota_`;
 
     const whatsappUrl = `https://wa.me/${
       CONFIG.whatsappNumber
@@ -1550,7 +1550,7 @@ class WhatsAppFloat {
   }
 
   openWhatsApp() {
-    const message = `Olá! Vim pelo site da Marmoraria Elegance e gostaria de mais informações sobre seus produtos e serviços.`;
+    const message = `Olá! Vim pelo site da Marmoraria Mota e gostaria de mais informações sobre seus produtos e serviços.`;
     const whatsappUrl = `https://wa.me/${
       CONFIG.whatsappNumber
     }?text=${encodeURIComponent(message)}`;

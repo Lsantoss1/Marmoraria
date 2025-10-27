@@ -7,6 +7,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 ## Características Premium
 
 ### 🎨 **Design Sofisticado**
+
 - **Paleta dourada premium** com gradientes sofisticados
 - **Tipografia elegante** combinando Playfair Display e Inter
 - **Layout responsivo avançado** com breakpoints otimizados
@@ -15,6 +16,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - **Animações CSS3** personalizadas e fluidas
 
 ### ⚡ **Funcionalidades Dinâmicas**
+
 - **Preloader animado** com barra de progresso
 - **Hero slider automático** com 3 slides e controles
 - **Contadores animados** que ativam no scroll
@@ -25,6 +27,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - **Sistema de notificações** toast
 
 ### 🔧 **Tecnologias Avançadas**
+
 - **JavaScript ES6+** com classes modulares
 - **CSS Grid e Flexbox** para layouts modernos
 - **Custom Properties** (variáveis CSS)
@@ -34,6 +37,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - **Service Worker** preparado para PWA
 
 ### 📱 **Experiência Mobile Premium**
+
 - **Design mobile-first** totalmente responsivo
 - **Menu hamburger animado** com transições suaves
 - **Touch gestures** otimizados
@@ -44,6 +48,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 ## Seções Implementadas
 
 ### 1. **Header Premium**
+
 - Navegação fixa com efeito blur
 - Logo animado com sublinhado dourado
 - Menu responsivo com animações
@@ -51,6 +56,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - Scroll suave entre seções
 
 ### 2. **Hero Section Dinâmico**
+
 - Slider automático com 3 slides
 - Efeito typing no título principal
 - Parallax background nas imagens
@@ -59,12 +65,14 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - Scroll indicator animado
 
 ### 3. **Estatísticas Flutuantes**
+
 - Contadores animados (571 projetos, 12 anos, 65% satisfação, 806 clientes)
 - Cards com sombras elevadas
 - Ícones dourados com gradiente
 - Animação por IntersectionObserver
 
 ### 4. **Seção Sobre Avançada**
+
 - Layout em grid responsivo
 - Stack de imagens criativo
 - Badge de experiência circular
@@ -72,6 +80,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - Botão de tour virtual
 
 ### 5. **Produtos com Filtros**
+
 - Sistema de filtros funcionais (Todos, Mármores, Granitos, Quartzos, Quartzitos)
 - Cards premium com preços e características
 - Overlay de detalhes no hover
@@ -79,6 +88,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - Tags de características
 
 ### 6. **Portfólio Interativo**
+
 - Filtros por categoria (Cozinhas, Banheiros, Comercial, Residencial)
 - Modal para visualização ampliada
 - Botões de compartilhamento
@@ -86,12 +96,14 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - Efeitos hover sofisticados
 
 ### 7. **Seção de Serviços**
+
 - Cards com preços e características
 - Card destacado "Mais Popular"
 - Listas de features com checkmarks
 - Preços formatados profissionalmente
 
 ### 8. **Calculadora de Orçamento**
+
 - Interface multi-etapas
 - Seleção visual de materiais
 - Cálculo automático de área
@@ -100,6 +112,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - Integração com WhatsApp
 
 ### 9. **Formulário de Contato Premium**
+
 - Validação em tempo real
 - Formatação automática de telefone
 - Upload de arquivos com drag & drop
@@ -108,6 +121,7 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 - Sistema de notificações
 
 ### 10. **Footer Completo**
+
 - Links organizados por categorias
 - Informações de contato detalhadas
 - Ícones sociais com hover effects
@@ -117,17 +131,20 @@ Este é um template HTML, CSS e JavaScript **altamente dinâmico e profissional*
 ## Integrações com Redes Sociais
 
 ### 📱 **WhatsApp**
+
 - **Botão flutuante** sempre visível com animação pulse
 - **Mensagens personalizadas** para cada contexto
 - **Integração com calculadora** para envio de orçamentos
 - **Formulário de contato** com redirecionamento automático
 
 ### 📧 **E-mail**
+
 - **Links mailto** funcionais em todo o site
 - **Formulário de contato** com validação
 - **Endereço profissional**: contato@marmoraria-elegance.com.br
 
 ### 📸 **Instagram**
+
 - **Links para perfil** da empresa
 - **Botões sociais** no footer e seção de contato
 - **Gradiente Instagram** nos botões
@@ -154,25 +171,29 @@ marmoraria-premium-dynamic/
 ## Como Personalizar
 
 ### 🏢 **Informações da Empresa**
-1. **Nome da empresa**: Altere "Marmoraria Elegance" no HTML
+
+1. **Nome da empresa**: Altere "Marmoraria Mota" no HTML
 2. **Telefone**: Substitua `(11) 99999-9999` pelo seu número
 3. **E-mail**: Altere `contato@marmoraria-elegance.com.br`
 4. **Endereço**: Modifique `Rua das Pedras Premium, 123`
 5. **WhatsApp**: Configure `CONFIG.whatsappNumber` no JavaScript
 
 ### 🎨 **Cores e Design**
+
 1. **Cor principal**: Altere `--primary-gold: #d4af37` no CSS
 2. **Cor secundária**: Modifique `--primary-gold-light: #f1c40f`
 3. **Tipografia**: Substitua as fontes Google Fonts se necessário
 4. **Logo**: Adicione sua logo no lugar do texto
 
 ### 📷 **Imagens**
+
 1. **Hero slides**: Substitua as 3 imagens principais
 2. **Produtos**: Adicione fotos dos seus materiais
 3. **Portfólio**: Inclua projetos reais da empresa
 4. **Showroom**: Foto do seu espaço físico
 
 ### 💰 **Preços e Produtos**
+
 1. **Calculadora**: Ajuste preços em `CONFIG.calculator.materials`
 2. **Cards de produtos**: Modifique preços nos cards
 3. **Serviços**: Atualize valores na seção de serviços
@@ -180,6 +201,7 @@ marmoraria-premium-dynamic/
 ## Funcionalidades Testadas
 
 ### ✅ **Completamente Funcionais**
+
 - [x] Slider automático do hero
 - [x] Contadores animados
 - [x] Filtros de produtos
@@ -193,6 +215,7 @@ marmoraria-premium-dynamic/
 - [x] Design responsivo
 
 ### 🔄 **Funcionalidades Avançadas**
+
 - [x] Preloader com progresso
 - [x] Cursor personalizado (desktop)
 - [x] Sistema de notificações
@@ -205,6 +228,7 @@ marmoraria-premium-dynamic/
 ## Compatibilidade
 
 ### 🌐 **Navegadores Suportados**
+
 - ✅ Chrome 60+
 - ✅ Firefox 55+
 - ✅ Safari 12+
@@ -212,12 +236,14 @@ marmoraria-premium-dynamic/
 - ✅ Opera 50+
 
 ### 📱 **Dispositivos**
+
 - ✅ Desktop (1920px+)
 - ✅ Laptop (1366px+)
 - ✅ Tablet (768px+)
 - ✅ Mobile (320px+)
 
 ### ⚡ **Performance**
+
 - **Lighthouse Score**: 90+ (Performance)
 - **First Contentful Paint**: < 2s
 - **Largest Contentful Paint**: < 3s
@@ -227,6 +253,7 @@ marmoraria-premium-dynamic/
 ## Instalação e Uso
 
 ### 1. **Configuração Básica**
+
 ```bash
 # Baixar os arquivos
 # Personalizar informações da empresa
@@ -235,12 +262,14 @@ marmoraria-premium-dynamic/
 ```
 
 ### 2. **Hospedagem**
+
 - Qualquer servidor web (Apache, Nginx)
 - Hospedagem compartilhada
 - CDN para melhor performance
 - HTTPS obrigatório para PWA
 
 ### 3. **Otimizações Recomendadas**
+
 - Comprimir imagens (WebP quando possível)
 - Minificar CSS e JavaScript
 - Configurar cache do navegador
@@ -249,18 +278,21 @@ marmoraria-premium-dynamic/
 ## Suporte e Manutenção
 
 ### 📊 **Analytics Recomendados**
+
 - Google Analytics 4
 - Google Search Console
 - Facebook Pixel (opcional)
 - Hotjar para heatmaps
 
 ### 🔧 **Manutenção Regular**
+
 - Atualizar portfólio mensalmente
 - Revisar preços trimestralmente
 - Testar formulários semanalmente
 - Backup dos arquivos
 
 ### 📈 **Melhorias Futuras**
+
 - Integração com CRM
 - Chat online
 - Sistema de agendamento

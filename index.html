@@ -1,1331 +1,1199 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marmoraria Elegance | Pedras Naturais Premium</title>
-    <meta
-      name="description"
-      content="Especialistas em mármores, granitos e quartzos premium. Transformamos ambientes com pedras naturais de qualidade excepcional."
-    />
 
-    <!-- Preload critical resources -->
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
-      as="style"
-    />
-    <link rel="preload" href="marble-kitchen-1.jpg" as="image" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marmoraria Mota</title>
+  <meta name="description"
+    content="Especialistas em mármores, granitos e quartzos premium. Transformamos ambientes com pedras naturais de qualidade excepcional." />
 
-    <!-- Stylesheets -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+  <!-- Preload critical resources -->
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    as="style" />
+  <link rel="preload" href="marble-kitchen-1.jpg" as="image" />
 
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>"
-    />
-  </head>
-  <body>
-    <!-- Preloader -->
-    <div id="preloader">
-      <div class="preloader-content">
-        <div class="logo-preloader">
-          <h1>Marmoraria <span class="elegance">Elegance</span></h1>
-          <div class="loading-bar">
-            <div class="loading-progress"></div>
+  <!-- Stylesheets -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>" />
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="logo-preloader">
+        <img src="logo.jpg" alt="Logo Marmoraria Mota" class="logo-img">
+        <h1>Marmoraria <span class="elegance">Mota</span></h1>
+        <div class="loading-bar">
+          <div class="loading-progress"></div>
+        </div>
+      </div>
+      <div class="preloader-text">Carregando experiência premium...</div>
+    </div>
+  </div>
+
+  <!-- Cursor personalizado -->
+  <div class="custom-cursor">
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+  </div>
+
+  <!-- Header com efeitos avançados -->
+  <header class="header" id="header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <img src="logo.jpg" alt="Logo Marmoraria Mota" class="logo-img">
+        <div class="nav-logo" data-aos="fade-right">
+          <h1>Marmoraria <span class="elegance">Mota</span></h1>
+          <div class="logo-underline"></div>
+        </div>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li>
+            <a href="#inicio" class="nav-link active" data-section="inicio">Início</a>
+          </li>
+          <li>
+            <a href="#sobre" class="nav-link" data-section="sobre">Sobre</a>
+          </li>
+          <li>
+            <a href="#produtos" class="nav-link" data-section="produtos">Produtos</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link" data-section="portfolio">Portfólio</a>
+          </li>
+          <li>
+            <a href="#servicos" class="nav-link" data-section="servicos">Serviços</a>
+          </li>
+          <li>
+            <a href="#contato" class="nav-link" data-section="contato">Contato</a>
+          </li>
+        </ul>
+
+        <div class="nav-actions" data-aos="fade-left">
+          <button class="btn-quote" id="btn-quote">
+            <i class="fas fa-calculator"></i>
+            <span>Orçamento</span>
+          </button>
+          <div class="nav-toggle" id="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
         </div>
-        <div class="preloader-text">Carregando experiência premium...</div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section com slider dinâmico -->
+  <section id="inicio" class="hero">
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: url('marble-kitchen-1.jpg')">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1 class="hero-title" data-aos="fade-up" data-aos-delay="300">
+            Transforme Seu Espaço com
+            <span class="highlight typing-text"></span>
+          </h1>
+          <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
+            Especialistas em pedras naturais premium. Criamos ambientes únicos
+            com mármores, granitos e quartzos de qualidade excepcional.
+          </p>
+          <div class="hero-buttons" data-aos="fade-up" data-aos-delay="900">
+            <a class="btn btn-primary btn-hero" id="hero-quote" href="#contato">
+              <i class="fas fa-gem"></i>
+              <span>Solicitar Orçamento</span>
+              <div class="btn-ripple"></div>
+            </a>
+            <a class="btn btn-secondary btn-hero" id="hero-portfolio" href="#portfolio">
+              <i class="fas fa-play"></i>
+              <span>Ver Projetos</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide" style="background-image: url('marble-kitchen-2.jpg')">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1 class="hero-title">
+            Cozinhas que Inspiram
+            <span class="highlight">Elegância</span>
+          </h1>
+          <p class="hero-subtitle">
+            Bancadas em quartzo e mármore que transformam sua cozinha em um
+            espaço gourmet de alto padrão.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary btn-hero" href="#portfolio">
+              <i class="fas fa-bath"></i>
+              <span>Projetos</span>
+            </a>
+            <a class="btn btn-secondary btn-hero" href="#produtos">
+              <i class="fas fa-palette"></i>
+              <span>Catálogo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide" style="background-image: url('luxury-bathroom.jpg')">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1 class="hero-title">
+            Banheiros de
+            <span class="highlight">Luxo</span>
+          </h1>
+          <p class="hero-subtitle">
+            Revestimentos em mármore Carrara e granitos exclusivos para criar
+            seu spa pessoal.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary btn-hero" href="#portfolio">
+              <i class="fas fa-bath"></i>
+              <span>Projetos</span>
+            </a>
+            <a class="btn btn-secondary btn-hero" href="#produtos">
+              <i class="fas fa-palette"></i>
+              <span>Catálogo</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- Cursor personalizado -->
-    <div class="custom-cursor">
-      <div class="cursor-dot"></div>
-      <div class="cursor-outline"></div>
+    <!-- Controles do slider -->
+    <div class="slider-controls">
+      <button class="slider-btn prev" id="prev-slide">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="slider-btn next" id="next-slide">
+        <i class="fas fa-chevron-right"></i>
+      </button>
     </div>
 
-    <!-- Header com efeitos avançados -->
-    <header class="header" id="header">
-      <nav class="navbar">
-        <div class="nav-container">
-          <div class="nav-logo" data-aos="fade-right">
-            <h1>Marmoraria <span class="elegance">Elegance</span></h1>
-            <div class="logo-underline"></div>
+    <!-- Indicadores -->
+    <div class="slider-indicators">
+      <span class="indicator active" data-slide="0"></span>
+      <span class="indicator" data-slide="1"></span>
+      <span class="indicator" data-slide="2"></span>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1200">
+      <div class="scroll-text">Role para descobrir</div>
+      <div class="scroll-arrow">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de estatísticas flutuantes -->
+  <section class="floating-stats">
+    <div class="container">
+      <div class="stats-grid" data-aos="fade-up">
+        <div class="stat-item">
+          <div class="stat-icon">
+            <i class="fas fa-trophy"></i>
           </div>
-
-          <ul class="nav-menu" id="nav-menu">
-            <li>
-              <a href="#inicio" class="nav-link active" data-section="inicio"
-                >Início</a
-              >
-            </li>
-            <li>
-              <a href="#sobre" class="nav-link" data-section="sobre">Sobre</a>
-            </li>
-            <li>
-              <a href="#produtos" class="nav-link" data-section="produtos"
-                >Produtos</a
-              >
-            </li>
-            <li>
-              <a href="#portfolio" class="nav-link" data-section="portfolio"
-                >Portfólio</a
-              >
-            </li>
-            <li>
-              <a href="#servicos" class="nav-link" data-section="servicos"
-                >Serviços</a
-              >
-            </li>
-            <li>
-              <a href="#contato" class="nav-link" data-section="contato"
-                >Contato</a
-              >
-            </li>
-          </ul>
-
-          <div class="nav-actions" data-aos="fade-left">
-            <button class="btn-quote" id="btn-quote">
-              <i class="fas fa-calculator"></i>
-              <span>Orçamento</span>
-            </button>
-            <div class="nav-toggle" id="nav-toggle">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
+          <div class="stat-content">
+            <span class="stat-number" data-target="850">0</span>
+            <span class="stat-label">Projetos Realizados</span>
           </div>
         </div>
-      </nav>
-    </header>
 
-    <!-- Hero Section com slider dinâmico -->
-    <section id="inicio" class="hero">
-      <div class="hero-slider">
-        <div
-          class="slide active"
-          style="background-image: url('marble-kitchen-1.jpg')"
-        >
-          <div class="slide-overlay"></div>
-          <div class="slide-content">
-            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="300">
-              Transforme Seu Espaço com
-              <span class="highlight typing-text"></span>
-            </h1>
-            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
-              Especialistas em pedras naturais premium. Criamos ambientes únicos
-              com mármores, granitos e quartzos de qualidade excepcional.
+        <div class="stat-item">
+          <div class="stat-icon">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="stat-content">
+            <span class="stat-number" data-target="18">0</span>
+            <span class="stat-label">Anos de Experiência</span>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="stat-content">
+            <span class="stat-number" data-target="98">0</span>
+            <span class="stat-label">% Satisfação</span>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="stat-content">
+            <span class="stat-number" data-target="1200">0</span>
+            <span class="stat-label">Clientes Atendidos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre com timeline interativa -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Nossa História</span>
+        <h2 class="section-title">Excelência em Pedras Naturais</h2>
+        <p class="section-subtitle">
+          Mais de 18 anos transformando sonhos em realidade com as melhores
+          pedras do mundo
+        </p>
+      </div>
+
+      <div class="sobre-content">
+        <div class="sobre-text" data-aos="fade-right">
+          <div class="text-highlight">
+            <h3>Tradição e Inovação</h3>
+            <p>
+              Somos especialistas na confecção de peças únicas em mármores
+              importados, granitos exclusivos e quartzos de última geração.
+              Nossa paixão por pedras naturais nos levou a ser referência no
+              mercado premium.
             </p>
-            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="900">
-              <button class="btn btn-primary btn-hero" id="hero-quote">
+          </div>
+
+          <div class="features-grid">
+            <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="feature-icon">
                 <i class="fas fa-gem"></i>
-                <span>Solicitar Orçamento</span>
-                <div class="btn-ripple"></div>
-              </button>
-              <button class="btn btn-secondary btn-hero" id="hero-portfolio">
+              </div>
+              <div class="feature-content">
+                <h4>Pedras Premium</h4>
+                <p>Seleção exclusiva das melhores pedreiras do mundo</p>
+              </div>
+            </div>
+
+            <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Tecnologia Avançada</h4>
+                <p>Equipamentos de última geração para cortes precisos</p>
+              </div>
+            </div>
+
+            <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="feature-icon">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Atendimento VIP</h4>
+                <p>Consultoria personalizada do projeto à instalação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sobre-visual" data-aos="fade-left">
+          <div class="image-stack">
+            <div class="image-card main">
+              <img src="stone-showroom.jpg" alt="Showroom Marmoraria Mota" />
+              <div class="image-overlay">
                 <i class="fas fa-play"></i>
-                <span>Ver Projetos</span>
-              </button>
+                <span>Tour Virtual</span>
+              </div>
+            </div>
+            <div class="image-card secondary">
+              <img src="granite-slabs.jpg" alt="Placas de Granito Premium" />
+            </div>
+          </div>
+
+          <div class="experience-badge">
+            <div class="badge-content">
+              <span class="badge-number">18+</span>
+              <span class="badge-text">Anos de<br />Excelência</span>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div
-          class="slide"
-          style="background-image: url('marble-kitchen-2.jpg')"
-        >
-          <div class="slide-overlay"></div>
-          <div class="slide-content">
-            <h1 class="hero-title">
-              Cozinhas que Inspiram
-              <span class="highlight">Elegância</span>
-            </h1>
-            <p class="hero-subtitle">
-              Bancadas em quartzo e mármore que transformam sua cozinha em um
-              espaço gourmet de alto padrão.
-            </p>
-            <div class="hero-buttons">
-              <button class="btn btn-primary btn-hero">
-                <i class="fas fa-utensils"></i>
-                <span>Projetos Cozinha</span>
+  <!-- Produtos com filtros interativos -->
+  <section id="produtos" class="produtos">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Nossos Produtos</span>
+        <h2 class="section-title">Pedras Naturais Premium</h2>
+        <p class="section-subtitle">
+          Trabalhamos com as melhores pedras naturais e artificiais do mercado
+          mundial
+        </p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="product-filters" data-aos="fade-up" data-aos-delay="200">
+        <button class="filter-btn active" data-filter="all">
+          <i class="fas fa-th"></i>
+          <span>Todos</span>
+        </button>
+        <button class="filter-btn" data-filter="marmores">
+          <i class="fas fa-gem"></i>
+          <span>Mármores</span>
+        </button>
+        <button class="filter-btn" data-filter="granitos">
+          <i class="fas fa-mountain"></i>
+          <span>Granitos</span>
+        </button>
+        <button class="filter-btn" data-filter="quartzos">
+          <i class="fas fa-cube"></i>
+          <span>Quartzos</span>
+        </button>
+        <button class="filter-btn" data-filter="quartzitos">
+          <i class="fas fa-layer-group"></i>
+          <span>Quartzitos</span>
+        </button>
+      </div>
+
+      <!-- Grid de produtos -->
+      <div class="produtos-grid" id="produtos-grid">
+        <div class="produto-card" data-category="marmores" data-aos="fade-up" data-aos-delay="100">
+          <div class="produto-image">
+            <img src="marble-countertop.jpg" alt="Mármore Carrara" />
+            <div class="produto-overlay">
+              <button class="btn-view-details">
+                <i class="fas fa-eye"></i>
+                Ver Detalhes
               </button>
-              <button class="btn btn-secondary btn-hero">
+            </div>
+          </div>
+          <div class="produto-content">
+            <div class="produto-header">
+              <h3>Mármores Premium</h3>
+              <span class="produto-price">A partir de R$ 180/m²</span>
+            </div>
+            <p class="produto-description">
+              Carrara, Calacatta, Nero Marquina e outras variedades exclusivas
+              importadas diretamente da Itália.
+            </p>
+            <div class="produto-features">
+              <span class="feature-tag">Importado</span>
+              <span class="feature-tag">Premium</span>
+              <span class="feature-tag">Polido</span>
+            </div>
+            <div class="produto-actions">
+              <button class="btn-action primary">
                 <i class="fas fa-calculator"></i>
-                <span>Calcular Preço</span>
+                Calcular
+              </button>
+              <button class="btn-action secondary">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp
               </button>
             </div>
           </div>
         </div>
 
-        <div class="slide" style="background-image: url('luxury-bathroom.jpg')">
-          <div class="slide-overlay"></div>
-          <div class="slide-content">
-            <h1 class="hero-title">
-              Banheiros de
-              <span class="highlight">Luxo</span>
-            </h1>
-            <p class="hero-subtitle">
-              Revestimentos em mármore Carrara e granitos exclusivos para criar
-              seu spa pessoal.
-            </p>
-            <div class="hero-buttons">
-              <button class="btn btn-primary btn-hero">
-                <i class="fas fa-bath"></i>
-                <span>Projetos Banheiro</span>
+        <div class="produto-card" data-category="granitos" data-aos="fade-up" data-aos-delay="200">
+          <div class="produto-image">
+            <img src="granite-slabs.jpg" alt="Granito Premium" />
+            <div class="produto-overlay">
+              <button class="btn-view-details">
+                <i class="fas fa-eye"></i>
+                Ver Detalhes
               </button>
-              <button class="btn btn-secondary btn-hero">
-                <i class="fas fa-palette"></i>
-                <span>Catálogo</span>
+            </div>
+          </div>
+          <div class="produto-content">
+            <div class="produto-header">
+              <h3>Granitos Exclusivos</h3>
+              <span class="produto-price">A partir de R$ 120/m²</span>
+            </div>
+            <p class="produto-description">
+              Granitos nacionais e importados com alta resistência e variedade
+              única de cores e texturas.
+            </p>
+            <div class="produto-features">
+              <span class="feature-tag">Resistente</span>
+              <span class="feature-tag">Nacional</span>
+              <span class="feature-tag">Importado</span>
+            </div>
+            <div class="produto-actions">
+              <button class="btn-action primary">
+                <i class="fas fa-calculator"></i>
+                Calcular
+              </button>
+              <button class="btn-action secondary">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="produto-card" data-category="quartzos" data-aos="fade-up" data-aos-delay="300">
+          <div class="produto-image">
+            <img src="marble-kitchen-2.jpg" alt="Quartzo Silestone" />
+            <div class="produto-overlay">
+              <button class="btn-view-details">
+                <i class="fas fa-eye"></i>
+                Ver Detalhes
+              </button>
+            </div>
+          </div>
+          <div class="produto-content">
+            <div class="produto-header">
+              <h3>Quartzos Engineered</h3>
+              <span class="produto-price">A partir de R$ 250/m²</span>
+            </div>
+            <p class="produto-description">
+              Silestone, Caesarstone e outras marcas premium com tecnologia
+              avançada e resistência superior.
+            </p>
+            <div class="produto-features">
+              <span class="feature-tag">Antibacteriano</span>
+              <span class="feature-tag">Não Poroso</span>
+              <span class="feature-tag">Garantia</span>
+            </div>
+            <div class="produto-actions">
+              <button class="btn-action primary">
+                <i class="fas fa-calculator"></i>
+                Calcular
+              </button>
+              <button class="btn-action secondary">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="produto-card" data-category="quartzitos" data-aos="fade-up" data-aos-delay="400">
+          <div class="produto-image">
+            <img src="marble-bathroom-vanity.jpg" alt="Quartzito Fusion" />
+            <div class="produto-overlay">
+              <button class="btn-view-details">
+                <i class="fas fa-eye"></i>
+                Ver Detalhes
+              </button>
+            </div>
+          </div>
+          <div class="produto-content">
+            <div class="produto-header">
+              <h3>Quartzitos Naturais</h3>
+              <span class="produto-price">A partir de R$ 200/m²</span>
+            </div>
+            <p class="produto-description">
+              Fusion, Taj Mahal e outras variedades com padrões únicos que
+              combinam beleza e resistência.
+            </p>
+            <div class="produto-features">
+              <span class="feature-tag">Único</span>
+              <span class="feature-tag">Resistente</span>
+              <span class="feature-tag">Natural</span>
+            </div>
+            <div class="produto-actions">
+              <button class="btn-action primary">
+                <i class="fas fa-calculator"></i>
+                Calcular
+              </button>
+              <button class="btn-action secondary">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp
               </button>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Controles do slider -->
-      <div class="slider-controls">
-        <button class="slider-btn prev" id="prev-slide">
-          <i class="fas fa-chevron-left"></i>
+  <!-- Portfólio com galeria avançada -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Nossos Trabalhos</span>
+        <h2 class="section-title">Portfólio Premium</h2>
+        <p class="section-subtitle">
+          Conheça alguns dos nossos projetos mais exclusivos e inspiradores
+        </p>
+      </div>
+
+      <!-- Filtros do portfólio -->
+      <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="200">
+        <button class="portfolio-filter active" data-filter="*">Todos</button>
+        <button class="portfolio-filter" data-filter=".cozinha">
+          Cozinhas
         </button>
-        <button class="slider-btn next" id="next-slide">
-          <i class="fas fa-chevron-right"></i>
+        <button class="portfolio-filter" data-filter=".banheiro">
+          Banheiros
+        </button>
+        <button class="portfolio-filter" data-filter=".comercial">
+          Comercial
+        </button>
+        <button class="portfolio-filter" data-filter=".residencial">
+          Residencial
         </button>
       </div>
 
-      <!-- Indicadores -->
-      <div class="slider-indicators">
-        <span class="indicator active" data-slide="0"></span>
-        <span class="indicator" data-slide="1"></span>
-        <span class="indicator" data-slide="2"></span>
-      </div>
-
-      <!-- Scroll indicator -->
-      <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1200">
-        <div class="scroll-text">Role para descobrir</div>
-        <div class="scroll-arrow">
-          <i class="fas fa-chevron-down"></i>
-        </div>
-      </div>
-    </section>
-
-    <!-- Seção de estatísticas flutuantes -->
-    <section class="floating-stats">
-      <div class="container">
-        <div class="stats-grid" data-aos="fade-up">
-          <div class="stat-item">
-            <div class="stat-icon">
-              <i class="fas fa-trophy"></i>
-            </div>
-            <div class="stat-content">
-              <span class="stat-number" data-target="850">0</span>
-              <span class="stat-label">Projetos Realizados</span>
-            </div>
-          </div>
-
-          <div class="stat-item">
-            <div class="stat-icon">
-              <i class="fas fa-calendar-alt"></i>
-            </div>
-            <div class="stat-content">
-              <span class="stat-number" data-target="18">0</span>
-              <span class="stat-label">Anos de Experiência</span>
-            </div>
-          </div>
-
-          <div class="stat-item">
-            <div class="stat-icon">
-              <i class="fas fa-star"></i>
-            </div>
-            <div class="stat-content">
-              <span class="stat-number" data-target="98">0</span>
-              <span class="stat-label">% Satisfação</span>
-            </div>
-          </div>
-
-          <div class="stat-item">
-            <div class="stat-icon">
-              <i class="fas fa-users"></i>
-            </div>
-            <div class="stat-content">
-              <span class="stat-number" data-target="1200">0</span>
-              <span class="stat-label">Clientes Atendidos</span>
+      <!-- Grid do portfólio -->
+      <div class="portfolio-grid" id="portfolio-grid">
+        <div class="portfolio-item cozinha residencial" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-image">
+            <img src="marble-kitchen-1.jpg" alt="Cozinha Gourmet com Mármore Carrara" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3>Cozinha Gourmet Premium</h3>
+                <p>Mármore Carrara com ilha central</p>
+                <div class="portfolio-tags">
+                  <span>Mármore</span>
+                  <span>Cozinha</span>
+                  <span>Premium</span>
+                </div>
+              </div>
+              <div class="portfolio-actions">
+                <button class="portfolio-btn" data-action="view">
+                  <i class="fas fa-search-plus"></i>
+                </button>
+                <button class="portfolio-btn" data-action="share">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Sobre com timeline interativa -->
-    <section id="sobre" class="sobre">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="section-tag">Nossa História</span>
-          <h2 class="section-title">Excelência em Pedras Naturais</h2>
-          <p class="section-subtitle">
-            Mais de 18 anos transformando sonhos em realidade com as melhores
-            pedras do mundo
+        <div class="portfolio-item cozinha residencial" data-aos="fade-up" data-aos-delay="200">
+          <div class="portfolio-image">
+            <img src="marble-kitchen-2.jpg" alt="Cozinha Moderna com Quartzo" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3>Cozinha Moderna</h3>
+                <p>Quartzo Silestone branco absoluto</p>
+                <div class="portfolio-tags">
+                  <span>Quartzo</span>
+                  <span>Moderno</span>
+                  <span>Branco</span>
+                </div>
+              </div>
+              <div class="portfolio-actions">
+                <button class="portfolio-btn" data-action="view">
+                  <i class="fas fa-search-plus"></i>
+                </button>
+                <button class="portfolio-btn" data-action="share">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item banheiro residencial" data-aos="fade-up" data-aos-delay="300">
+          <div class="portfolio-image">
+            <img src="luxury-bathroom.jpg" alt="Banheiro de Luxo" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3>Spa Residencial</h3>
+                <p>Revestimento completo em mármore</p>
+                <div class="portfolio-tags">
+                  <span>Banheiro</span>
+                  <span>Luxo</span>
+                  <span>Spa</span>
+                </div>
+              </div>
+              <div class="portfolio-actions">
+                <button class="portfolio-btn" data-action="view">
+                  <i class="fas fa-search-plus"></i>
+                </button>
+                <button class="portfolio-btn" data-action="share">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item banheiro comercial" data-aos="fade-up" data-aos-delay="400">
+          <div class="portfolio-image">
+            <img src="marble-bathroom-vanity.jpg" alt="Bancada de Banheiro Premium" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3>Bancada Premium</h3>
+                <p>Granito Preto São Gabriel</p>
+                <div class="portfolio-tags">
+                  <span>Granito</span>
+                  <span>Bancada</span>
+                  <span>Preto</span>
+                </div>
+              </div>
+              <div class="portfolio-actions">
+                <button class="portfolio-btn" data-action="view">
+                  <i class="fas fa-search-plus"></i>
+                </button>
+                <button class="portfolio-btn" data-action="share">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botão para ver mais -->
+      <div class="portfolio-more" data-aos="fade-up" data-aos-delay="500">
+        <button class="btn btn-outline" id="load-more-portfolio">
+          <i class="fas fa-plus"></i>
+          <span>Carregar Mais Projetos</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Serviços -->
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Nossos Serviços</span>
+        <h2 class="section-title">Soluções Completas</h2>
+        <p class="section-subtitle">
+          Do projeto à instalação, oferecemos serviços completos para seu
+          projeto
+        </p>
+      </div>
+
+      <div class="servicos-grid">
+        <div class="servico-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="servico-icon">
+            <i class="fas fa-drafting-compass"></i>
+          </div>
+          <h3>Projeto 3D</h3>
+          <p>
+            Visualização realística do seu projeto antes da execução com
+            renderização em alta qualidade.
           </p>
+          <ul class="servico-features">
+            <li>Modelagem 3D profissional</li>
+            <li>Renderização fotorrealística</li>
+            <li>Múltiplas opções de materiais</li>
+            <li>Visita virtual interativa</li>
+          </ul>
+          <div class="servico-price">
+            <span class="price-label">A partir de</span>
+            <span class="price-value">R$ 350</span>
+          </div>
         </div>
 
-        <div class="sobre-content">
-          <div class="sobre-text" data-aos="fade-right">
-            <div class="text-highlight">
-              <h3>Tradição e Inovação</h3>
-              <p>
-                Somos especialistas na confecção de peças únicas em mármores
-                importados, granitos exclusivos e quartzos de última geração.
-                Nossa paixão por pedras naturais nos levou a ser referência no
-                mercado premium.
-              </p>
-            </div>
-
-            <div class="features-grid">
-              <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
-                <div class="feature-icon">
-                  <i class="fas fa-gem"></i>
-                </div>
-                <div class="feature-content">
-                  <h4>Pedras Premium</h4>
-                  <p>Seleção exclusiva das melhores pedreiras do mundo</p>
-                </div>
-              </div>
-
-              <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
-                <div class="feature-icon">
-                  <i class="fas fa-tools"></i>
-                </div>
-                <div class="feature-content">
-                  <h4>Tecnologia Avançada</h4>
-                  <p>Equipamentos de última geração para cortes precisos</p>
-                </div>
-              </div>
-
-              <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
-                <div class="feature-icon">
-                  <i class="fas fa-handshake"></i>
-                </div>
-                <div class="feature-content">
-                  <h4>Atendimento VIP</h4>
-                  <p>Consultoria personalizada do projeto à instalação</p>
-                </div>
-              </div>
-            </div>
+        <div class="servico-card featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="featured-badge">Mais Popular</div>
+          <div class="servico-icon">
+            <i class="fas fa-hammer"></i>
           </div>
+          <h3>Instalação Premium</h3>
+          <p>
+            Instalação completa com garantia estendida e acabamento impecável
+            por profissionais especializados.
+          </p>
+          <ul class="servico-features">
+            <li>Equipe especializada certificada</li>
+            <li>Ferramentas de última geração</li>
+            <li>Garantia de 5 anos</li>
+            <li>Suporte pós-instalação</li>
+          </ul>
+          <div class="servico-price">
+            <span class="price-label">Incluso no projeto</span>
+            <span class="price-value">Grátis</span>
+          </div>
+        </div>
 
-          <div class="sobre-visual" data-aos="fade-left">
-            <div class="image-stack">
-              <div class="image-card main">
-                <img
-                  src="stone-showroom.jpg"
-                  alt="Showroom Marmoraria Elegance"
-                />
-                <div class="image-overlay">
-                  <i class="fas fa-play"></i>
-                  <span>Tour Virtual</span>
-                </div>
-              </div>
-              <div class="image-card secondary">
-                <img src="granite-slabs.jpg" alt="Placas de Granito Premium" />
-              </div>
-            </div>
-
-            <div class="experience-badge">
-              <div class="badge-content">
-                <span class="badge-number">18+</span>
-                <span class="badge-text">Anos de<br />Excelência</span>
-              </div>
-            </div>
+        <div class="servico-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="servico-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Manutenção</h3>
+          <p>
+            Serviços de polimento, restauração e manutenção preventiva para
+            manter suas pedras sempre novas.
+          </p>
+          <ul class="servico-features">
+            <li>Polimento e cristalização</li>
+            <li>Remoção de manchas</li>
+            <li>Impermeabilização</li>
+            <li>Planos de manutenção</li>
+          </ul>
+          <div class="servico-price">
+            <span class="price-label">A partir de</span>
+            <span class="price-value">R$ 25/m²</span>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Produtos com filtros interativos -->
-    <section id="produtos" class="produtos">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="section-tag">Nossos Produtos</span>
-          <h2 class="section-title">Pedras Naturais Premium</h2>
-          <p class="section-subtitle">
-            Trabalhamos com as melhores pedras naturais e artificiais do mercado
-            mundial
-          </p>
+  <!-- Calculadora de Orçamento -->
+  <section class="calculadora" id="calculadora">
+    <div class="container">
+      <div class="calculadora-content">
+        <div class="calculadora-header" data-aos="fade-up">
+          <h2>Calculadora de Orçamento</h2>
+          <p>Calcule instantaneamente o valor do seu projeto</p>
         </div>
 
-        <!-- Filtros -->
-        <div class="product-filters" data-aos="fade-up" data-aos-delay="200">
-          <button class="filter-btn active" data-filter="all">
-            <i class="fas fa-th"></i>
-            <span>Todos</span>
-          </button>
-          <button class="filter-btn" data-filter="marmores">
-            <i class="fas fa-gem"></i>
-            <span>Mármores</span>
-          </button>
-          <button class="filter-btn" data-filter="granitos">
-            <i class="fas fa-mountain"></i>
-            <span>Granitos</span>
-          </button>
-          <button class="filter-btn" data-filter="quartzos">
-            <i class="fas fa-cube"></i>
-            <span>Quartzos</span>
-          </button>
-          <button class="filter-btn" data-filter="quartzitos">
-            <i class="fas fa-layer-group"></i>
-            <span>Quartzitos</span>
-          </button>
-        </div>
+        <div class="calculadora-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="calc-step active" data-step="1">
+            <h3>Escolha o Tipo de Pedra</h3>
+            <div class="stone-options">
+              <div class="stone-option" data-type="marmore" data-price="180">
+                <div class="stone-image">
+                  <img src="marble-countertop.jpg" alt="Mármore" />
+                </div>
+                <div class="stone-info">
+                  <h4>Mármore</h4>
+                  <span class="stone-price">R$ 180/m²</span>
+                </div>
+              </div>
 
-        <!-- Grid de produtos -->
-        <div class="produtos-grid" id="produtos-grid">
-          <div
-            class="produto-card"
-            data-category="marmores"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="produto-image">
-              <img src="marble-countertop.jpg" alt="Mármore Carrara" />
-              <div class="produto-overlay">
-                <button class="btn-view-details">
-                  <i class="fas fa-eye"></i>
-                  Ver Detalhes
-                </button>
+              <div class="stone-option" data-type="granito" data-price="120">
+                <div class="stone-image">
+                  <img src="granite-slabs.jpg" alt="Granito" />
+                </div>
+                <div class="stone-info">
+                  <h4>Granito</h4>
+                  <span class="stone-price">R$ 120/m²</span>
+                </div>
               </div>
-            </div>
-            <div class="produto-content">
-              <div class="produto-header">
-                <h3>Mármores Premium</h3>
-                <span class="produto-price">A partir de R$ 180/m²</span>
-              </div>
-              <p class="produto-description">
-                Carrara, Calacatta, Nero Marquina e outras variedades exclusivas
-                importadas diretamente da Itália.
-              </p>
-              <div class="produto-features">
-                <span class="feature-tag">Importado</span>
-                <span class="feature-tag">Premium</span>
-                <span class="feature-tag">Polido</span>
-              </div>
-              <div class="produto-actions">
-                <button class="btn-action primary">
-                  <i class="fas fa-calculator"></i>
-                  Calcular
-                </button>
-                <button class="btn-action secondary">
-                  <i class="fas fa-whatsapp"></i>
-                  WhatsApp
-                </button>
+
+              <div class="stone-option" data-type="quartzo" data-price="250">
+                <div class="stone-image">
+                  <img src="marble-kitchen-2.jpg" alt="Quartzo" />
+                </div>
+                <div class="stone-info">
+                  <h4>Quartzo</h4>
+                  <span class="stone-price">R$ 250/m²</span>
+                </div>
               </div>
             </div>
           </div>
 
-          <div
-            class="produto-card"
-            data-category="granitos"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="produto-image">
-              <img src="granite-slabs.jpg" alt="Granito Premium" />
-              <div class="produto-overlay">
-                <button class="btn-view-details">
-                  <i class="fas fa-eye"></i>
-                  Ver Detalhes
-                </button>
+          <div class="calc-step" data-step="2">
+            <h3>Medidas do Projeto</h3>
+            <div class="measurements-grid">
+              <div class="measurement-input">
+                <label>Comprimento (m)</label>
+                <input type="number" id="comprimento" placeholder="Ex: 2.5" step="0.1" min="0" />
+              </div>
+              <div class="measurement-input">
+                <label>Largura (m)</label>
+                <input type="number" id="largura" placeholder="Ex: 0.6" step="0.1" min="0" />
+              </div>
+              <div class="measurement-input">
+                <label>Espessura (cm)</label>
+                <select id="espessura">
+                  <option value="2">2cm (Padrão)</option>
+                  <option value="3">3cm (Premium)</option>
+                </select>
               </div>
             </div>
-            <div class="produto-content">
-              <div class="produto-header">
-                <h3>Granitos Exclusivos</h3>
-                <span class="produto-price">A partir de R$ 120/m²</span>
+
+            <div class="area-display">
+              <span class="area-label">Área Total:</span>
+              <span class="area-value" id="area-total">0 m²</span>
+            </div>
+          </div>
+
+          <div class="calc-step" data-step="3">
+            <h3>Serviços Adicionais</h3>
+            <div class="services-options">
+              <div class="service-option">
+                <input type="checkbox" id="instalacao" data-price="50" />
+                <label for="instalacao">
+                  <span class="service-name">Instalação Profissional</span>
+                  <span class="service-price">+R$ 50/m²</span>
+                </label>
               </div>
-              <p class="produto-description">
-                Granitos nacionais e importados com alta resistência e variedade
-                única de cores e texturas.
-              </p>
-              <div class="produto-features">
-                <span class="feature-tag">Resistente</span>
-                <span class="feature-tag">Nacional</span>
-                <span class="feature-tag">Importado</span>
+
+              <div class="service-option">
+                <input type="checkbox" id="projeto3d" data-price="350" />
+                <label for="projeto3d">
+                  <span class="service-name">Projeto 3D</span>
+                  <span class="service-price">+R$ 350</span>
+                </label>
               </div>
-              <div class="produto-actions">
-                <button class="btn-action primary">
-                  <i class="fas fa-calculator"></i>
-                  Calcular
-                </button>
-                <button class="btn-action secondary">
-                  <i class="fas fa-whatsapp"></i>
-                  WhatsApp
-                </button>
+
+              <div class="service-option">
+                <input type="checkbox" id="entrega" data-price="100" />
+                <label for="entrega">
+                  <span class="service-name">Entrega e Transporte</span>
+                  <span class="service-price">+R$ 100</span>
+                </label>
               </div>
             </div>
           </div>
 
-          <div
-            class="produto-card"
-            data-category="quartzos"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <div class="produto-image">
-              <img src="marble-kitchen-2.jpg" alt="Quartzo Silestone" />
-              <div class="produto-overlay">
-                <button class="btn-view-details">
-                  <i class="fas fa-eye"></i>
-                  Ver Detalhes
-                </button>
-              </div>
-            </div>
-            <div class="produto-content">
-              <div class="produto-header">
-                <h3>Quartzos Engineered</h3>
-                <span class="produto-price">A partir de R$ 250/m²</span>
-              </div>
-              <p class="produto-description">
-                Silestone, Caesarstone e outras marcas premium com tecnologia
-                avançada e resistência superior.
-              </p>
-              <div class="produto-features">
-                <span class="feature-tag">Antibacteriano</span>
-                <span class="feature-tag">Não Poroso</span>
-                <span class="feature-tag">Garantia</span>
-              </div>
-              <div class="produto-actions">
-                <button class="btn-action primary">
-                  <i class="fas fa-calculator"></i>
-                  Calcular
-                </button>
-                <button class="btn-action secondary">
-                  <i class="fas fa-whatsapp"></i>
-                  WhatsApp
-                </button>
-              </div>
-            </div>
+          <div class="calc-navigation">
+            <button class="btn btn-secondary" id="calc-prev" style="display: one">
+              <i class="fas fa-arrow-left"></i>
+              Anterior
+            </button>
+
+            <button class="btn btn-primary" id="calc-next">
+              Próximo
+              <i class="fas fa-arrow-right"></i>
+            </button>
           </div>
 
-          <div
-            class="produto-card"
-            data-category="quartzitos"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <div class="produto-image">
-              <img src="marble-bathroom-vanity.jpg" alt="Quartzito Fusion" />
-              <div class="produto-overlay">
-                <button class="btn-view-details">
-                  <i class="fas fa-eye"></i>
-                  Ver Detalhes
+          <div class="calc-result" id="calc-result" style="display: none">
+            <div class="result-summary">
+              <h3>Resumo do Orçamento</h3>
+              <div class="result-details">
+                <div class="result-item">
+                  <span>Material:</span>
+                  <span id="result-material">-</span>
+                </div>
+                <div class="result-item">
+                  <span>Área:</span>
+                  <span id="result-area">-</span>
+                </div>
+                <div class="result-item">
+                  <span>Preço base:</span>
+                  <span id="result-base">-</span>
+                </div>
+                <div class="result-item">
+                  <span>Serviços:</span>
+                  <span id="result-services">-</span>
+                </div>
+                <div class="result-total">
+                  <span>Total:</span>
+                  <span id="result-total">-</span>
+                </div>
+              </div>
+
+              <div class="result-actions">
+                <button class="btn btn-primary" id="send-quote">
+                  <i class="fab fa-whatsapp"></i>
+                  Enviar por WhatsApp
                 </button>
-              </div>
-            </div>
-            <div class="produto-content">
-              <div class="produto-header">
-                <h3>Quartzitos Naturais</h3>
-                <span class="produto-price">A partir de R$ 200/m²</span>
-              </div>
-              <p class="produto-description">
-                Fusion, Taj Mahal e outras variedades com padrões únicos que
-                combinam beleza e resistência.
-              </p>
-              <div class="produto-features">
-                <span class="feature-tag">Único</span>
-                <span class="feature-tag">Resistente</span>
-                <span class="feature-tag">Natural</span>
-              </div>
-              <div class="produto-actions">
-                <button class="btn-action primary">
-                  <i class="fas fa-calculator"></i>
-                  Calcular
+                <button class="btn btn-secondary" id="save-quote">
+                  <i class="fas fa-download"></i>
+                  Salvar PDF
                 </button>
-                <button class="btn-action secondary">
-                  <i class="fas fa-whatsapp"></i>
-                  WhatsApp
+                <!-- Botão Limpar Orçamento adicionado -->
+                <button class="btn btn-outline" id="clear-quote">
+                  <i class="fas fa-redo"></i>
+                  Limpar Orçamento
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Portfólio com galeria avançada -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="section-tag">Nossos Trabalhos</span>
-          <h2 class="section-title">Portfólio Premium</h2>
-          <p class="section-subtitle">
-            Conheça alguns dos nossos projetos mais exclusivos e inspiradores
-          </p>
-        </div>
-
-        <!-- Filtros do portfólio -->
-        <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="200">
-          <button class="portfolio-filter active" data-filter="*">Todos</button>
-          <button class="portfolio-filter" data-filter=".cozinha">
-            Cozinhas
-          </button>
-          <button class="portfolio-filter" data-filter=".banheiro">
-            Banheiros
-          </button>
-          <button class="portfolio-filter" data-filter=".comercial">
-            Comercial
-          </button>
-          <button class="portfolio-filter" data-filter=".residencial">
-            Residencial
-          </button>
-        </div>
-
-        <!-- Grid do portfólio -->
-        <div class="portfolio-grid" id="portfolio-grid">
-          <div
-            class="portfolio-item cozinha residencial"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="portfolio-image">
-              <img
-                src="marble-kitchen-1.jpg"
-                alt="Cozinha Gourmet com Mármore Carrara"
-              />
-              <div class="portfolio-overlay">
-                <div class="portfolio-content">
-                  <h3>Cozinha Gourmet Premium</h3>
-                  <p>Mármore Carrara com ilha central</p>
-                  <div class="portfolio-tags">
-                    <span>Mármore</span>
-                    <span>Cozinha</span>
-                    <span>Premium</span>
-                  </div>
-                </div>
-                <div class="portfolio-actions">
-                  <button class="portfolio-btn" data-action="view">
-                    <i class="fas fa-search-plus"></i>
-                  </button>
-                  <button class="portfolio-btn" data-action="share">
-                    <i class="fas fa-share-alt"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="portfolio-item cozinha residencial"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="portfolio-image">
-              <img
-                src="marble-kitchen-2.jpg"
-                alt="Cozinha Moderna com Quartzo"
-              />
-              <div class="portfolio-overlay">
-                <div class="portfolio-content">
-                  <h3>Cozinha Moderna</h3>
-                  <p>Quartzo Silestone branco absoluto</p>
-                  <div class="portfolio-tags">
-                    <span>Quartzo</span>
-                    <span>Moderno</span>
-                    <span>Branco</span>
-                  </div>
-                </div>
-                <div class="portfolio-actions">
-                  <button class="portfolio-btn" data-action="view">
-                    <i class="fas fa-search-plus"></i>
-                  </button>
-                  <button class="portfolio-btn" data-action="share">
-                    <i class="fas fa-share-alt"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="portfolio-item banheiro residencial"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <div class="portfolio-image">
-              <img src="luxury-bathroom.jpg" alt="Banheiro de Luxo" />
-              <div class="portfolio-overlay">
-                <div class="portfolio-content">
-                  <h3>Spa Residencial</h3>
-                  <p>Revestimento completo em mármore</p>
-                  <div class="portfolio-tags">
-                    <span>Banheiro</span>
-                    <span>Luxo</span>
-                    <span>Spa</span>
-                  </div>
-                </div>
-                <div class="portfolio-actions">
-                  <button class="portfolio-btn" data-action="view">
-                    <i class="fas fa-search-plus"></i>
-                  </button>
-                  <button class="portfolio-btn" data-action="share">
-                    <i class="fas fa-share-alt"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="portfolio-item banheiro comercial"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <div class="portfolio-image">
-              <img
-                src="marble-bathroom-vanity.jpg"
-                alt="Bancada de Banheiro Premium"
-              />
-              <div class="portfolio-overlay">
-                <div class="portfolio-content">
-                  <h3>Bancada Premium</h3>
-                  <p>Granito Preto São Gabriel</p>
-                  <div class="portfolio-tags">
-                    <span>Granito</span>
-                    <span>Bancada</span>
-                    <span>Preto</span>
-                  </div>
-                </div>
-                <div class="portfolio-actions">
-                  <button class="portfolio-btn" data-action="view">
-                    <i class="fas fa-search-plus"></i>
-                  </button>
-                  <button class="portfolio-btn" data-action="share">
-                    <i class="fas fa-share-alt"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Botão para ver mais -->
-        <div class="portfolio-more" data-aos="fade-up" data-aos-delay="500">
-          <button class="btn btn-outline" id="load-more-portfolio">
-            <i class="fas fa-plus"></i>
-            <span>Carregar Mais Projetos</span>
-          </button>
-        </div>
+  <!-- Contato Premium -->
+  <section id="contato" class="contato">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Fale Conosco</span>
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="section-subtitle">
+          Estamos prontos para transformar seu projeto em realidade
+        </p>
       </div>
-    </section>
 
-    <!-- Seção de Serviços -->
-    <section id="servicos" class="servicos">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="section-tag">Nossos Serviços</span>
-          <h2 class="section-title">Soluções Completas</h2>
-          <p class="section-subtitle">
-            Do projeto à instalação, oferecemos serviços completos para seu
-            projeto
-          </p>
-        </div>
-
-        <div class="servicos-grid">
-          <div class="servico-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="servico-icon">
-              <i class="fas fa-drafting-compass"></i>
-            </div>
-            <h3>Projeto 3D</h3>
+      <div class="contato-content">
+        <div class="contato-info" data-aos="fade-right">
+          <div class="info-card">
+            <h3>Informações de Contato</h3>
             <p>
-              Visualização realística do seu projeto antes da execução com
-              renderização em alta qualidade.
+              Nossa equipe especializada está pronta para atendê-lo com
+              excelência e profissionalismo.
             </p>
-            <ul class="servico-features">
-              <li>Modelagem 3D profissional</li>
-              <li>Renderização fotorrealística</li>
-              <li>Múltiplas opções de materiais</li>
-              <li>Visita virtual interativa</li>
-            </ul>
-            <div class="servico-price">
-              <span class="price-label">A partir de</span>
-              <span class="price-value">R$ 350</span>
-            </div>
-          </div>
 
-          <div
-            class="servico-card featured"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="featured-badge">Mais Popular</div>
-            <div class="servico-icon">
-              <i class="fas fa-hammer"></i>
-            </div>
-            <h3>Instalação Premium</h3>
-            <p>
-              Instalação completa com garantia estendida e acabamento impecável
-              por profissionais especializados.
-            </p>
-            <ul class="servico-features">
-              <li>Equipe especializada certificada</li>
-              <li>Ferramentas de última geração</li>
-              <li>Garantia de 5 anos</li>
-              <li>Suporte pós-instalação</li>
-            </ul>
-            <div class="servico-price">
-              <span class="price-label">Incluso no projeto</span>
-              <span class="price-value">Grátis</span>
-            </div>
-          </div>
-
-          <div class="servico-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="servico-icon">
-              <i class="fas fa-tools"></i>
-            </div>
-            <h3>Manutenção</h3>
-            <p>
-              Serviços de polimento, restauração e manutenção preventiva para
-              manter suas pedras sempre novas.
-            </p>
-            <ul class="servico-features">
-              <li>Polimento e cristalização</li>
-              <li>Remoção de manchas</li>
-              <li>Impermeabilização</li>
-              <li>Planos de manutenção</li>
-            </ul>
-            <div class="servico-price">
-              <span class="price-label">A partir de</span>
-              <span class="price-value">R$ 25/m²</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Calculadora de Orçamento -->
-    <section class="calculadora" id="calculadora">
-      <div class="container">
-        <div class="calculadora-content">
-          <div class="calculadora-header" data-aos="fade-up">
-            <h2>Calculadora de Orçamento</h2>
-            <p>Calcule instantaneamente o valor do seu projeto</p>
-          </div>
-
-          <div class="calculadora-form" data-aos="fade-up" data-aos-delay="200">
-            <div class="calc-step active" data-step="1">
-              <h3>Escolha o Tipo de Pedra</h3>
-              <div class="stone-options">
-                <div class="stone-option" data-type="marmore" data-price="180">
-                  <div class="stone-image">
-                    <img src="marble-countertop.jpg" alt="Mármore" />
-                  </div>
-                  <div class="stone-info">
-                    <h4>Mármore</h4>
-                    <span class="stone-price">R$ 180/m²</span>
-                  </div>
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-phone"></i>
                 </div>
-
-                <div class="stone-option" data-type="granito" data-price="120">
-                  <div class="stone-image">
-                    <img src="granite-slabs.jpg" alt="Granito" />
-                  </div>
-                  <div class="stone-info">
-                    <h4>Granito</h4>
-                    <span class="stone-price">R$ 120/m²</span>
-                  </div>
+                <div class="method-content">
+                  <h4>Telefone</h4>
+                  <p>(79) 99960-7489</p>
+                  <span>Seg à Sex: 8h às 18h</span>
                 </div>
+              </div>
 
-                <div class="stone-option" data-type="quartzo" data-price="250">
-                  <div class="stone-image">
-                    <img src="marble-kitchen-2.jpg" alt="Quartzo" />
-                  </div>
-                  <div class="stone-info">
-                    <h4>Quartzo</h4>
-                    <span class="stone-price">R$ 250/m²</span>
-                  </div>
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="method-content">
+                  <h4>E-mail</h4>
+                  <p>contato@marmoraria.com.br</p>
+                  <span>Resposta em até 2h</span>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="method-content">
+                  <h4>Showroom</h4>
+                  <p>
+                    Rua São Vicente, 107<br />Marivan/Santa Maria - Aracaju
+                    - SE
+                  </p>
+                  <span>Visite nosso showroom</span>
                 </div>
               </div>
             </div>
 
-            <div class="calc-step" data-step="2">
-              <h3>Medidas do Projeto</h3>
-              <div class="measurements-grid">
-                <div class="measurement-input">
-                  <label>Comprimento (m)</label>
-                  <input
-                    type="number"
-                    id="comprimento"
-                    placeholder="Ex: 2.5"
-                    step="0.1"
-                    min="0"
-                  />
-                </div>
-                <div class="measurement-input">
-                  <label>Largura (m)</label>
-                  <input
-                    type="number"
-                    id="largura"
-                    placeholder="Ex: 0.6"
-                    step="0.1"
-                    min="0"
-                  />
-                </div>
-                <div class="measurement-input">
-                  <label>Espessura (cm)</label>
-                  <select id="espessura">
-                    <option value="2">2cm (Padrão)</option>
-                    <option value="3">3cm (Premium)</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="area-display">
-                <span class="area-label">Área Total:</span>
-                <span class="area-value" id="area-total">0 m²</span>
-              </div>
-            </div>
-
-            <div class="calc-step" data-step="3">
-              <h3>Serviços Adicionais</h3>
-              <div class="services-options">
-                <div class="service-option">
-                  <input type="checkbox" id="instalacao" data-price="50" />
-                  <label for="instalacao">
-                    <span class="service-name">Instalação Profissional</span>
-                    <span class="service-price">+R$ 50/m²</span>
-                  </label>
-                </div>
-
-                <div class="service-option">
-                  <input type="checkbox" id="projeto3d" data-price="350" />
-                  <label for="projeto3d">
-                    <span class="service-name">Projeto 3D</span>
-                    <span class="service-price">+R$ 350</span>
-                  </label>
-                </div>
-
-                <div class="service-option">
-                  <input type="checkbox" id="entrega" data-price="100" />
-                  <label for="entrega">
-                    <span class="service-name">Entrega e Transporte</span>
-                    <span class="service-price">+R$ 100</span>
-                  </label>
-                </div>
-              </div>
-            </div>
-
-            <div class="calc-navigation">
-              <button
-                class="btn btn-secondary"
-                id="calc-prev"
-                style="display: one"
-              >
-                <i class="fas fa-arrow-left"></i>
-                Anterior
-              </button>
-
-              <button class="btn btn-primary" id="calc-next">
-                Próximo
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            </div>
-
-            <div class="calc-result" id="calc-result" style="display: none">
-              <div class="result-summary">
-                <h3>Resumo do Orçamento</h3>
-                <div class="result-details">
-                  <div class="result-item">
-                    <span>Material:</span>
-                    <span id="result-material">-</span>
-                  </div>
-                  <div class="result-item">
-                    <span>Área:</span>
-                    <span id="result-area">-</span>
-                  </div>
-                  <div class="result-item">
-                    <span>Preço base:</span>
-                    <span id="result-base">-</span>
-                  </div>
-                  <div class="result-item">
-                    <span>Serviços:</span>
-                    <span id="result-services">-</span>
-                  </div>
-                  <div class="result-total">
-                    <span>Total:</span>
-                    <span id="result-total">-</span>
-                  </div>
-                </div>
-
-                <div class="result-actions">
-                  <button class="btn btn-primary" id="send-quote">
-                    <i class="fab fa-whatsapp"></i>
-                    Enviar por WhatsApp
-                  </button>
-                  <button class="btn btn-secondary" id="save-quote">
-                    <i class="fas fa-download"></i>
-                    Salvar PDF
-                  </button>
-                  <!-- Botão Limpar Orçamento adicionado -->
-                  <button class="btn btn-outline" id="clear-quote">
-                    <i class="fas fa-redo"></i>
-                    Limpar Orçamento
-                  </button>
-                </div>
+            <div class="social-connect">
+              <h4>Conecte-se Conosco</h4>
+              <div class="social-buttons">
+                <a href="https://wa.me/5511999999999" class="social-btn whatsapp" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                  <span>WhatsApp</span>
+                </a>
+                <a href="mailto:contato@marmoraria.com.br" class="social-btn email">
+                  <i class="fas fa-envelope"></i>
+                  <span>E-mail</span>
+                </a>
+                <a href="https://instagram.com/marmorariamota" class="social-btn instagram" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                  <span>Instagram</span>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Contato Premium -->
-    <section id="contato" class="contato">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="section-tag">Fale Conosco</span>
-          <h2 class="section-title">Entre em Contato</h2>
-          <p class="section-subtitle">
-            Estamos prontos para transformar seu projeto em realidade
-          </p>
-        </div>
-
-        <div class="contato-content">
-          <div class="contato-info" data-aos="fade-right">
-            <div class="info-card">
-              <h3>Informações de Contato</h3>
-              <p>
-                Nossa equipe especializada está pronta para atendê-lo com
-                excelência e profissionalismo.
-              </p>
-
-              <div class="contact-methods">
-                <div class="contact-method">
-                  <div class="method-icon">
-                    <i class="fas fa-phone"></i>
-                  </div>
-                  <div class="method-content">
-                    <h4>Telefone</h4>
-                    <p>(11) 99999-9999</p>
-                    <span>Seg à Sex: 8h às 18h</span>
-                  </div>
-                </div>
-
-                <div class="contact-method">
-                  <div class="method-icon">
-                    <i class="fas fa-envelope"></i>
-                  </div>
-                  <div class="method-content">
-                    <h4>E-mail</h4>
-                    <p>contato@marmoraria-elegance.com.br</p>
-                    <span>Resposta em até 2h</span>
-                  </div>
-                </div>
-
-                <div class="contact-method">
-                  <div class="method-icon">
-                    <i class="fas fa-map-marker-alt"></i>
-                  </div>
-                  <div class="method-content">
-                    <h4>Showroom</h4>
-                    <p>
-                      Rua das Pedras Premium, 123<br />Vila Madalena - São Paulo
-                      - SP
-                    </p>
-                    <span>Visite nosso showroom</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="social-connect">
-                <h4>Conecte-se Conosco</h4>
-                <div class="social-buttons">
-                  <a
-                    href="https://wa.me/5511999999999"
-                    class="social-btn whatsapp"
-                    target="_blank"
-                  >
-                    <i class="fab fa-whatsapp"></i>
-                    <span>WhatsApp</span>
-                  </a>
-                  <a
-                    href="mailto:contato@marmoraria-elegance.com.br"
-                    class="social-btn email"
-                  >
-                    <i class="fas fa-envelope"></i>
-                    <span>E-mail</span>
-                  </a>
-                  <a
-                    href="https://instagram.com/marmoraria.elegance"
-                    class="social-btn instagram"
-                    target="_blank"
-                  >
-                    <i class="fab fa-instagram"></i>
-                    <span>Instagram</span>
-                  </a>
-                </div>
-              </div>
+        <div class="contato-form" data-aos="fade-left">
+          <form id="contact-form" class="form-premium">
+            <div class="form-header">
+              <h3>Solicite seu Orçamento</h3>
+              <p>Preencha os dados e receba uma proposta personalizada</p>
             </div>
-          </div>
 
-          <div class="contato-form" data-aos="fade-left">
-            <form id="contact-form" class="form-premium">
-              <div class="form-header">
-                <h3>Solicite seu Orçamento</h3>
-                <p>Preencha os dados e receba uma proposta personalizada</p>
-              </div>
-
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="nome">Nome Completo *</label>
-                  <input type="text" id="nome" name="nome" required />
-                  <div class="form-feedback"></div>
-                </div>
-
-                <div class="form-group">
-                  <label for="telefone">Telefone *</label>
-                  <input type="tel" id="telefone" name="telefone" required />
-                  <div class="form-feedback"></div>
-                </div>
-              </div>
-
+            <div class="form-row">
               <div class="form-group">
-                <label for="email">E-mail *</label>
-                <input type="email" id="email" name="email" required />
+                <label for="nome">Nome Completo *</label>
+                <input type="text" id="nome" name="nome" required />
                 <div class="form-feedback"></div>
               </div>
 
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="tipo-projeto">Tipo de Projeto</label>
-                  <select id="tipo-projeto" name="tipo-projeto">
-                    <option value="">Selecione</option>
-                    <option value="cozinha">Cozinha</option>
-                    <option value="banheiro">Banheiro</option>
-                    <option value="area-gourmet">Área Gourmet</option>
-                    <option value="lavanderia">Lavanderia</option>
-                    <option value="piso">Piso</option>
-                    <option value="escada">Escada</option>
-                    <option value="fachada">Fachada</option>
-                    <option value="outros">Outros</option>
-                  </select>
-                </div>
+              <div class="form-group">
+                <label for="telefone">Telefone *</label>
+                <input type="tel" id="telefone" name="telefone" required />
+                <div class="form-feedback"></div>
+              </div>
+            </div>
 
-                <div class="form-group">
-                  <label for="orcamento">Orçamento Estimado</label>
-                  <select id="orcamento" name="orcamento">
-                    <option value="">Selecione</option>
-                    <option value="ate-5k">Até R$ 5.000</option>
-                    <option value="5k-10k">R$ 5.000 - R$ 10.000</option>
-                    <option value="10k-20k">R$ 10.000 - R$ 20.000</option>
-                    <option value="20k-50k">R$ 20.000 - R$ 50.000</option>
-                    <option value="acima-50k">Acima de R$ 50.000</option>
-                  </select>
-                </div>
+            <div class="form-group">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" required />
+              <div class="form-feedback"></div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="tipo-projeto">Tipo de Projeto</label>
+                <select id="tipo-projeto" name="tipo-projeto">
+                  <option value="">Selecione</option>
+                  <option value="cozinha">Cozinha</option>
+                  <option value="banheiro">Banheiro</option>
+                  <option value="area-gourmet">Área Gourmet</option>
+                  <option value="lavanderia">Lavanderia</option>
+                  <option value="piso">Piso</option>
+                  <option value="escada">Escada</option>
+                  <option value="fachada">Fachada</option>
+                  <option value="outros">Outros</option>
+                </select>
               </div>
 
               <div class="form-group">
-                <label for="mensagem">Descreva seu Projeto</label>
-                <textarea
-                  id="mensagem"
-                  name="mensagem"
-                  rows="4"
-                  placeholder="Conte-nos mais sobre seu projeto, medidas aproximadas, preferências de materiais, prazo desejado..."
-                ></textarea>
+                <label for="orcamento">Orçamento Estimado</label>
+                <select id="orcamento" name="orcamento">
+                  <option value="">Selecione</option>
+                  <option value="ate-5k">Até R$ 5.000</option>
+                  <option value="5k-10k">R$ 5.000 - R$ 10.000</option>
+                  <option value="10k-20k">R$ 10.000 - R$ 20.000</option>
+                  <option value="20k-50k">R$ 20.000 - R$ 50.000</option>
+                  <option value="acima-50k">Acima de R$ 50.000</option>
+                </select>
               </div>
+            </div>
 
-              <div class="form-group file-upload">
-                <label for="arquivos"
-                  >Anexar Arquivos (Plantas, Fotos, Referências)</label
-                >
-                <div class="file-drop-zone" id="file-drop-zone">
-                  <i class="fas fa-cloud-upload-alt"></i>
-                  <p>
-                    Arraste arquivos aqui ou
-                    <span class="file-browse">clique para selecionar</span>
-                  </p>
-                  <input
-                    type="file"
-                    id="arquivos"
-                    name="arquivos"
-                    multiple
-                    accept="image/*,.pdf,.dwg"
-                  />
-                </div>
-                <div class="file-list" id="file-list"></div>
+            <div class="form-group">
+              <label for="mensagem">Descreva seu Projeto</label>
+              <textarea id="mensagem" name="mensagem" rows="4"
+                placeholder="Conte-nos mais sobre seu projeto, medidas aproximadas, preferências de materiais, prazo desejado..."></textarea>
+            </div>
+
+            <div class="form-group file-upload">
+              <label for="arquivos">Anexar Arquivos (Plantas, Fotos, Referências)</label>
+              <div class="file-drop-zone" id="file-drop-zone">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>
+                  Arraste arquivos aqui ou
+                  <span class="file-browse">clique para selecionar</span>
+                </p>
+                <input type="file" id="arquivos" name="arquivos" multiple accept="image/*,.pdf,.dwg" />
               </div>
+              <div class="file-list" id="file-list"></div>
+            </div>
 
-              <div class="form-group checkbox-group">
-                <label class="checkbox-label">
-                  <input type="checkbox" id="newsletter" name="newsletter" />
-                  <span class="checkmark"></span>
-                  Quero receber novidades e promoções exclusivas
-                </label>
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="newsletter" name="newsletter" />
+                <span class="checkmark"></span>
+                Quero receber novidades e promoções exclusivas
+              </label>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="termos" name="termos" required />
+                <span class="checkmark"></span>
+                Li e aceito os <a href="#" target="_blank">termos de uso</a> e
+                <a href="#" target="_blank">política de privacidade</a> *
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">
+              <span class="btn-text">
+                <i class="fas fa-paper-plane"></i>
+                Solicitar Orçamento Grátis
+              </span>
+              <div class="btn-loading">
+                <i class="fas fa-spinner fa-spin"></i>
+                Enviando...
               </div>
-
-              <div class="form-group checkbox-group">
-                <label class="checkbox-label">
-                  <input type="checkbox" id="termos" name="termos" required />
-                  <span class="checkmark"></span>
-                  Li e aceito os <a href="#" target="_blank">termos de uso</a> e
-                  <a href="#" target="_blank">política de privacidade</a> *
-                </label>
-              </div>
-
-              <button type="submit" class="btn btn-primary btn-submit">
-                <span class="btn-text">
-                  <i class="fas fa-paper-plane"></i>
-                  Solicitar Orçamento Grátis
-                </span>
-                <div class="btn-loading">
-                  <i class="fas fa-spinner fa-spin"></i>
-                  Enviando...
-                </div>
-              </button>
-            </form>
-          </div>
+            </button>
+          </form>
         </div>
-      </div>
-    </section>
-
-    <!-- Footer Premium -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-main">
-            <div class="footer-brand" data-aos="fade-up">
-              <h3>Marmoraria <span class="elegance">Elegance</span></h3>
-              <p>
-                Transformando espaços com elegância e qualidade há mais de 18
-                anos. Especialistas em pedras naturais premium com atendimento
-                personalizado e garantia de excelência.
-              </p>
-              <div class="footer-social">
-                <a
-                  href="https://wa.me/5511999999999"
-                  target="_blank"
-                  class="social-icon whatsapp"
-                >
-                  <i class="fab fa-whatsapp"></i>
-                </a>
-                <a
-                  href="mailto:contato@marmoraria-elegance.com.br"
-                  class="social-icon email"
-                >
-                  <i class="fas fa-envelope"></i>
-                </a>
-                <a
-                  href="https://instagram.com/marmoraria.elegance"
-                  target="_blank"
-                  class="social-icon instagram"
-                >
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="social-icon facebook">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
-              <h4>Produtos</h4>
-              <ul>
-                <li><a href="#produtos">Mármores Premium</a></li>
-                <li><a href="#produtos">Granitos Exclusivos</a></li>
-                <li><a href="#produtos">Quartzos Engineered</a></li>
-                <li><a href="#produtos">Quartzitos Naturais</a></li>
-                <li><a href="#produtos">Pedras Especiais</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-links" data-aos="fade-up" data-aos-delay="200">
-              <h4>Serviços</h4>
-              <ul>
-                <li><a href="#servicos">Projeto 3D</a></li>
-                <li><a href="#servicos">Instalação Premium</a></li>
-                <li><a href="#servicos">Manutenção</a></li>
-                <li><a href="#calculadora">Calculadora</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-contact" data-aos="fade-up" data-aos-delay="300">
-              <h4>Contato</h4>
-              <div class="contact-info">
-                <div class="contact-item">
-                  <i class="fas fa-phone"></i>
-                  <span>(11) 99999-9999</span>
-                </div>
-                <div class="contact-item">
-                  <i class="fas fa-envelope"></i>
-                  <span>contato@marmoraria-elegance.com.br</span>
-                </div>
-                <div class="contact-item">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <span
-                    >Rua das Pedras Premium, 123<br />Vila Madalena - São Paulo
-                    - SP</span
-                  >
-                </div>
-                <div class="contact-item">
-                  <i class="fas fa-clock"></i>
-                  <span>Seg à Sex: 8h às 18h<br />Sáb: 8h às 14h</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="footer-bottom">
-            <div class="footer-bottom-content">
-              <p>
-                &copy; 2024 Marmoraria Elegance. Todos os direitos reservados.
-              </p>
-              <div class="footer-bottom-links">
-                <a href="#">Política de Privacidade</a>
-                <a href="#">Termos de Uso</a>
-                <a href="#">Cookies</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- WhatsApp Float Button Premium -->
-    <div class="whatsapp-float" id="whatsapp-float">
-      <div class="whatsapp-button">
-        <i class="fab fa-whatsapp"></i>
-      </div>
-      <div class="whatsapp-tooltip">
-        <span>Fale conosco no WhatsApp!</span>
       </div>
     </div>
+  </section>
 
-    <!-- Back to Top -->
-    <button class="back-to-top" id="back-to-top">
-      <i class="fas fa-chevron-up"></i>
-    </button>
+  <!-- Footer Premium -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand" data-aos="fade-up">
+            <h3>Marmoraria <span class="elegance">Mota</span></h3>
+            <p>
+              Transformando espaços com elegância e qualidade há mais de 18
+              anos. Especialistas em pedras naturais premium com atendimento
+              personalizado e garantia de excelência.
+            </p>
+            <div class="footer-social">
+              <a href="https://wa.me/5511999999999" target="_blank" class="social-icon whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="mailto:contato@marmoraria.com.br" class="social-icon email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://instagram.com/marmorariamota" target="_blank" class="social-icon instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icon facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
 
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+          <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+            <h4>Produtos</h4>
+            <ul>
+              <li><a href="#produtos">Mármores Premium</a></li>
+              <li><a href="#produtos">Granitos Exclusivos</a></li>
+              <li><a href="#produtos">Quartzos Engineered</a></li>
+              <li><a href="#produtos">Quartzitos Naturais</a></li>
+              <li><a href="#produtos">Pedras Especiais</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links" data-aos="fade-up" data-aos-delay="200">
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="#servicos">Projeto 3D</a></li>
+              <li><a href="#servicos">Instalação Premium</a></li>
+              <li><a href="#servicos">Manutenção</a></li>
+              <li><a href="#calculadora">Calculadora</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact" data-aos="fade-up" data-aos-delay="300">
+            <h4>Contato</h4>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>(79) 99960-7489</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>contato@marmoraria.com.br</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Rua São Vicente, 107<br />Marivan/Santa Maria - Aracaju
+                  - SE</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-clock"></i>
+                <span>Seg à Sex: 8h às 18h<br />Sáb: 8h às 14h</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-bottom-content">
+            <p>
+              &copy; 2025 Marmoraria Mota. Todos os direitos reservados.
+            </p>
+            <div class="footer-bottom-links">
+              <a href="#">Política de Privacidade</a>
+              <a href="#">Termos de Uso</a>
+              <a href="#">Cookies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button Premium -->
+  <div class="whatsapp-float" id="whatsapp-float">
+    <div class="whatsapp-button">
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <div class="whatsapp-tooltip">
+      <span>Fale conosco no WhatsApp!</span>
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
